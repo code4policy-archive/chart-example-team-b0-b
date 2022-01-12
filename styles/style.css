@@ -28,3 +28,30 @@ body {
   fill: none;
   stroke: steelblue;
 }
+
+#apple-stock-chart2 .axis path,
+#apple-stock-chart2 .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#apple-stock-chart2 .x.axis path {
+  display: none;
+}
+
+#apple-stock-chart2 .line {
+  fill: none;
+  stroke: green;
+  stroke-width: 1.5px;
+}
+
+#apple-stock-chart2 .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#apple-stock-chart2 .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
